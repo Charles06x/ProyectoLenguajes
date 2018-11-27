@@ -1,0 +1,19 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Concurencia en js</title>
+    <script src="Concurrent.Thread.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		function proceso () {
+			while (true) {
+				console.log("Loop infinito");
+			}
+		}
+		Concurrent.Thread.create(proceso);
+	</script>
+	
+	Html concurrencia
+</body>
+</html>
